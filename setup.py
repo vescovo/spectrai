@@ -4,22 +4,22 @@ with open('README.md', encoding='utf8') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'numpy==1.23.3',
-    'scipy==1.9.1',
+    'numpy>=1.23.3',
+    'scipy>=1.9.1',
     'torch>=1.11.0',
     'torchvision>=0.12.0',
-    'tensorboard==2.10.0',
-    'pandas==1.4.4',
-    'scikit-learn==1.1.2',
-    'scikit-image==0.19.3',
-    'Pillow==9.2.0',
-    'PyYAML==6.0',
+    'tensorboard>=2.10.0',
+    'pandas>=1.4.4',
+    'scikit-learn>=1.1.2',
+    'scikit-image>=0.19.3',
+    'Pillow>=9.2.0',
+    'PyYAML>=6.0',
 ]
 
 setup(
     author='Conor Horgan',
     author_email='conor.horgan@kcl.ac.uk',
-    python_requires='>=3.6, <3.9',
+    python_requires='>=3.6, <3.14',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Science/Research',
