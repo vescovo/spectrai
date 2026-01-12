@@ -82,9 +82,9 @@ def main():
     Preprocessing = config['Preprocessing']
     Data_Augmentation = config['Data_Augmentation']
     DataManager_Options = config['DataManager_Options']
-    net_state_dict = config['net_state_dict']
-    optimizer_state_dict = config['optimizer_state_dict']
-    scheduler_state_dict = config['scheduler_state_dict']
+    net_state_dict = config["State_Dicts"]['net_state_dict']
+    optimizer_state_dict = config["State_Dicts"]['optimizer_state_dict']
+    scheduler_state_dict = config["State_Dicts"]['scheduler_state_dict']
 
     epochs = config['Training_Hyperparameters']['epochs']
 
